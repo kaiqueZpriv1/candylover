@@ -3,7 +3,7 @@ import { HeaderC } from '../../components/header/HeaderC';
 import Global from '../../components/Global';
 import { FooterHome, HomeS, RouterPage } from '../../components/home/style';
 import { Fade } from 'react-awesome-reveal';
-
+// style = home
 export const PascoaIT = () => {
 	return (
 		<>
