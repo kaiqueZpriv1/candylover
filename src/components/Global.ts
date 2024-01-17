@@ -6,6 +6,9 @@ export default createGlobalStyle`
         padding: 0;
         box-sizing: border-box;
     }
+    body{
+        background-color: rgba(225, 225, 225, 1);
+    }
     /* Titulos - fontes grandes */
     h1, h3{
         font-family: 'Open Sans', sans-serif;
