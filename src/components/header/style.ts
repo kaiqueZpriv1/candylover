@@ -46,6 +46,8 @@ export const RouterSocial = styled.h3`
 	display: flex;
 	align-items: center;
 	gap: 5px;
+	text-decoration: none;
+	color: #000;
 	.link-header {
 		color: #000;
 		cursor: pointer;

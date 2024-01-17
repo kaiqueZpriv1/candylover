@@ -3,6 +3,7 @@ import { HeaderC } from '../../components/header/HeaderC';
 import Global from '../../components/Global';
 import { FooterHome, HomeS, RouterPage } from '../../components/home/style';
 import { Fade } from 'react-awesome-reveal';
+import { Link } from 'react-router-dom';
 // style = home
 export const PascoaIT = () => {
 	return (
@@ -12,7 +13,9 @@ export const PascoaIT = () => {
 			<HomeS>
 				<div className='container-home'>
 					<Fade direction='left'>
-						<RouterPage>Kit 4 ovos de 50g</RouterPage>
+						<Link to='/kit'>
+							<RouterPage>Kit 4 ovos de 50g</RouterPage>
+						</Link>
 					</Fade>
 					<Fade direction='right'>
 						<RouterPage>Ovos de 250g</RouterPage>
