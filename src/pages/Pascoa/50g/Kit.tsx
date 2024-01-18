@@ -1,15 +1,65 @@
 import React from 'react';
 import Global from '../../../components/Global';
 import { HeaderG } from '../../header global/HeaderG';
-import {
-	Cardapio,
-	CardapioList,
-	HomePages,
-	LineRecheio,
-	TextHomeInicial,
-} from './style';
+import { Cardapio, CardapioList, HomePages, TextHomeInicial } from './style';
 
 export const Kit = () => {
+	const recheio = [
+		{
+			id: 0,
+			recheio: 'Brigadeiro',
+			value: 'R$ 45,00',
+			line: '-------------'
+		},
+		{
+			id: 1,
+			recheio: 'Mousse de maracujá',
+			value: 'R$ 45,00',
+			line: '---'
+		},
+		{
+			id: 2,
+			recheio: 'Prestigio',
+			value: 'R$ 45,00',
+			line: '--------------'
+		},
+		{
+			id: 3,
+			recheio: 'Beijinho',
+			value: 'R$ 45,00',
+			line: '---------------'
+		},
+		{
+			id: 4,
+			recheio: 'Ninho',
+			value: 'R$ 45,00',
+			line: '----------------'
+		},
+		{
+			id: 5,
+			recheio: 'Sensação',
+			value: 'R$ 45,00',
+			line: '--------------'
+		},
+		{
+			id: 6,
+			recheio: 'Oreo',
+			value: 'R$ 45,00',
+			line: '----------------'
+		},
+		{
+			id: 7,
+			recheio: 'Kit Kat',
+			value: 'R$ 45,00',
+			line: '----------------'
+		},
+		{
+			id: 8,
+			recheio: 'Kinder Bueno',
+			value: 'R$ 45,00',
+			line: '---------'
+		},
+	];
 	return (
 		<>
 			<Global />
@@ -23,31 +73,15 @@ export const Kit = () => {
 					<Cardapio>
 						<span className='span-inicial'>Recheios :</span>
 						<div className='container-cardapio'>
-							<CardapioList>
-								<h3 className='recheio-text'>Moranguinho</h3>
-								<span className='value-recheio'>R$ 45,00</span>
-							</CardapioList>
-							<LineRecheio />
-							<CardapioList>
-								<h3 className='recheio-text'>Moranguinho</h3>
-								<span className='value-recheio'>R$ 45,00</span>
-							</CardapioList>
-							<LineRecheio />
-							<CardapioList>
-								<h3 className='recheio-text'>Moranguinho</h3>
-								<span className='value-recheio'>R$ 45,00</span>
-							</CardapioList>
-							<LineRecheio />
-							<CardapioList>
-								<h3 className='recheio-text'>Moranguinho</h3>
-								<span className='value-recheio'>R$ 45,00</span>
-							</CardapioList>
-							<LineRecheio />
-							<CardapioList>
-								<h3 className='recheio-text'>Moranguinho</h3>
-								<span className='value-recheio'>R$ 45,00</span>
-							</CardapioList>
-							<LineRecheio />
+							{recheio.map((i) => {
+								return (
+									<CardapioList key={i.id}>
+										<h3 className='recheio-text'>{i.recheio}</h3>
+										<p className='line-cardapio'>{i.line}</p>
+										<span className='value-recheio'>{i.value}</span>
+									</CardapioList>
+								);
+							})}
 						</div>
 					</Cardapio>
 				</div>

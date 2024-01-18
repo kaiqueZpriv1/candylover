@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const HomePages = styled.div`
-	padding: 90px 0 0 0;
+	padding: 50px 0 0 0;
 	.container-homeP {
 		display: flex;
 		flex-direction: column;
@@ -27,10 +27,10 @@ export const TextHomeInicial = styled.div`
 `;
 
 export const Cardapio = styled.div`
-	padding: 60px 10px 0 5px;
+	padding: 20px 10px 0 5px;
 	display: flex;
 	flex-direction: column;
-	gap: 20px;
+	gap: 10px;
 	.span-inicial {
 		font-size: 2.5em;
 		font-weight: 700;
@@ -47,7 +47,6 @@ export const Cardapio = styled.div`
 
 export const CardapioList = styled.div`
 	display: flex;
-	/* flex-direction: column; */
 	justify-content: space-between;
 	padding: 10px 15px 0 15px;
 	.recheio-text {
@@ -60,13 +59,7 @@ export const CardapioList = styled.div`
 		color: #151076;
 		font-weight: 600;
 	}
-`;
-
-export const LineRecheio = styled.div`
-	text-align: center;
-	height: 2px;
-	width: 370px;
-	background-color: #6065c1;
-	position: relative;
-	left: 30px;
+	.line-cardapio {
+		font-size: 1.5em;
+	}
 `;
