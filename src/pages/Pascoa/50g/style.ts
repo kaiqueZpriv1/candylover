@@ -48,7 +48,19 @@ export const Cardapio = styled.div`
 export const CardapioList = styled.div`
 	display: flex;
 	justify-content: space-between;
-	padding: 10px 15px 0 15px;
+	margin: 0 10px;
+	padding: 15px 10px;
+	box-shadow: 0 0 5px #000;
+	border-radius: 15px;
+	.description-recheio {
+		display: flex;
+		flex-direction: column;
+	}
+	.value-box {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
 	.recheio-text {
 		font-size: 1.6em;
 		color: #000;
@@ -60,6 +72,6 @@ export const CardapioList = styled.div`
 		font-weight: 600;
 	}
 	.line-cardapio {
-		font-size: 1.5em;
+		font-size: 1.4em;
 	}
 `;
