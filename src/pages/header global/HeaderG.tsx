@@ -22,7 +22,7 @@ export const HeaderG = () => {
 				<AiOutlineMenu
 					className='icon-burger'
 					onClick={handleSetBurger}
-					style={{ color: burger ? '#000' : '#fafafa' }}
+					color='#000'
 					size={60}
 				/>
 				<BurgerDiv
