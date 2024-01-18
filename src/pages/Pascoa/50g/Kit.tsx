@@ -1,7 +1,13 @@
 import React from 'react';
 import Global from '../../../components/Global';
 import { HeaderG } from '../../header global/HeaderG';
-import { Cardapio, CardapioList, HomePages, TextHomeInicial } from './style';
+import {
+	Cardapio,
+	CardapioList,
+	HomePages,
+	LineCardapio,
+	TextHomeInicial,
+} from './style';
 
 export const Kit = () => {
 	const recheio = [
@@ -11,54 +17,57 @@ export const Kit = () => {
 			value: 'R$ 45,00',
 			description: 'Brigadeiro tradicional com casca ao leite',
 		},
-		// {
-		// 	id: 1,
-		// 	recheio: 'Mousse de maracujá',
-		// 	value: 'R$ 45,00',
-		// 	line: '---',
-		// },
-		// {
-		// 	id: 2,
-		// 	recheio: 'Prestigio',
-		// 	value: 'R$ 45,00',
-		// 	line: '--------------',
-		// },
-		// {
-		// 	id: 3,
-		// 	recheio: 'Beijinho',
-		// 	value: 'R$ 45,00',
-		// 	line: '---------------',
-		// },
-		// {
-		// 	id: 4,
-		// 	recheio: 'Ninho',
-		// 	value: 'R$ 45,00',
-		// 	line: '----------------',
-		// },
-		// {
-		// 	id: 5,
-		// 	recheio: 'Sensação',
-		// 	value: 'R$ 45,00',
-		// 	line: '--------------',
-		// },
-		// {
-		// 	id: 6,
-		// 	recheio: 'Oreo',
-		// 	value: 'R$ 45,00',
-		// 	line: '----------------',
-		// },
-		// {
-		// 	id: 7,
-		// 	recheio: 'Kit Kat',
-		// 	value: 'R$ 45,00',
-		// 	line: '----------------',
-		// },
-		// {
-		// 	id: 8,
-		// 	recheio: 'Kinder Bueno',
-		// 	value: 'R$ 45,00',
-		// 	line: '---------',
-		// },
+		{
+			id: 1,
+			recheio: 'Mousse de maracujá',
+			value: 'R$ 45,00',
+			description: 'Mousse de maracuja com casca meia amarga',
+		},
+		{
+			id: 2,
+			recheio: 'Prestigio',
+			value: 'R$ 45,00',
+			description:
+				'Brigadeiro tradicional acompanhado de beijinho com casca ao leite',
+		},
+		{
+			id: 3,
+			recheio: 'Beijinho',
+			value: 'R$ 45,00',
+			description: 'Beijinho com massa de coco e casca ao leite',
+		},
+		{
+			id: 4,
+			recheio: 'Ninho',
+			value: 'R$ 45,00',
+			description: 'Brigadeiro branco com leite ninho',
+		},
+		{
+			id: 5,
+			recheio: 'Sensação',
+			value: 'R$ 45,00',
+			description: 'Brigadeiro tradicional com moranguinho',
+		},
+		{
+			id: 6,
+			recheio: 'óreo',
+			value: 'R$ 45,00',
+			description: 'Brigadeiro de óreo com casca branca',
+		},
+		{
+			id: 7,
+			recheio: 'Kit Kat',
+			value: 'R$ 45,00',
+			description:
+				'Brigadeiro tradicional e brigadeiro branco com kit kat e casca ao leite',
+		},
+		{
+			id: 8,
+			recheio: 'Kinder Bueno',
+			value: 'R$ 45,00',
+			description:
+				'Brigadeiro de ninho com kinder bueno e nutella com casca branca',
+		},
 	];
 	return (
 		<>
@@ -75,15 +84,18 @@ export const Kit = () => {
 						<div className='container-cardapio'>
 							{recheio.map((i) => {
 								return (
-									<CardapioList key={i.id}>
-										<div className='description-recheio'>
-											<h3 className='recheio-text'>{i.recheio}</h3>
-											<p className='line-cardapio'>{i.description}</p>
-										</div>
-										<div className='value-box'>
-											<span className='value-recheio'>{i.value}</span>
-										</div>
-									</CardapioList>
+									<>
+										<CardapioList key={i.id}>
+											<div className='description-recheio'>
+												<h3 className='recheio-text'>{i.recheio}</h3>
+												<p className='description-cardapio'>{i.description}</p>
+											</div>
+											<div className='value-box'>
+												<span className='value-recheio'>{i.value}</span>
+											</div>
+										</CardapioList>
+										<LineCardapio />
+									</>
 								);
 							})}
 						</div>

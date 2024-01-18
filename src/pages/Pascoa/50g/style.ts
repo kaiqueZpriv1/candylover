@@ -27,7 +27,7 @@ export const TextHomeInicial = styled.div`
 `;
 
 export const Cardapio = styled.div`
-	padding: 20px 10px 0 5px;
+	padding: 30px 10px 0 5px;
 	display: flex;
 	flex-direction: column;
 	gap: 10px;
@@ -50,7 +50,7 @@ export const CardapioList = styled.div`
 	justify-content: space-between;
 	margin: 0 10px;
 	padding: 15px 10px;
-	box-shadow: 0 0 5px #000;
+	/* box-shadow: 0 0 5px #000; */
 	border-radius: 15px;
 	gap: 30px;
 	.description-recheio {
@@ -67,6 +67,7 @@ export const CardapioList = styled.div`
 		font-size: 1.4em;
 		color: #151076;
 		font-weight: 700;
+		width: 250px;
 	}
 	.value-recheio {
 		font-size: 1.4em;
@@ -74,8 +75,19 @@ export const CardapioList = styled.div`
 		font-weight: 600;
 		width: 100px;
 	}
-	.line-cardapio {
+	.description-cardapio {
 		font-size: 1em;
 		font-weight: 500;
 	}
+`;
+
+export const LineCardapio = styled.div`
+	border: 1px solid rgba(150, 150, 150, 1);
+	width: 350px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	inset: 0 0 0 20px;
 `;
