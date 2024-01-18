@@ -8,6 +8,7 @@ import {
 	LineCardapio,
 	TextHomeInicial,
 } from './style';
+import { Fade } from 'react-awesome-reveal';
 
 export const Kit = () => {
 	const recheio = [
@@ -75,26 +76,36 @@ export const Kit = () => {
 			<HeaderG />
 			<HomePages>
 				<div className='container-homeP'>
-					<TextHomeInicial>
-						<span className='title-homeP'>Kit com 4 ovos de 50g</span>
-						<p className='paragrafo-homeP'>Escolha 4 opções de recheio !</p>
-					</TextHomeInicial>
+					<Fade cascade direction='up'>
+						<TextHomeInicial>
+							<span className='title-homeP'>Kit com 4 ovos de 50g</span>
+							<p className='paragrafo-homeP'>Escolha 4 opções de recheio !</p>
+						</TextHomeInicial>
+					</Fade>
 					<Cardapio>
-						<span className='span-inicial'>Recheios :</span>
+						<Fade direction='down'>
+							<span className='span-inicial'>Recheios :</span>
+						</Fade>
 						<div className='container-cardapio'>
 							{recheio.map((i) => {
 								return (
 									<>
 										<CardapioList key={i.id}>
 											<div className='description-recheio'>
-												<h3 className='recheio-text'>{i.recheio}</h3>
-												<p className='description-cardapio'>{i.description}</p>
+												<Fade cascade direction='left'>
+													<h3 className='recheio-text'>{i.recheio}</h3>
+													<p className='description-cardapio'>
+														{i.description}
+													</p>
+												</Fade>
 											</div>
 											<div className='value-box'>
 												<span className='value-recheio'>{i.value}</span>
 											</div>
 										</CardapioList>
-										<LineCardapio />
+										<Fade direction='down'>
+											<LineCardapio />
+										</Fade>
 									</>
 								);
 							})}
