@@ -51,7 +51,7 @@ export const RouterSocial = styled.h3`
 	.link-header {
 		color: #000;
 		cursor: pointer;
-		font-size: 1.7em;
+		font-size: 1.4em;
 		font-weight: 600;
 		position: relative;
 	}

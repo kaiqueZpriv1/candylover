@@ -53,7 +53,7 @@ export const HeaderC = () => {
 						<RouterSocial>
 							<AiOutlineMail size={35} color='#3e65cf' />
 							<a
-								href='mailto:kaiquedev.dev@gmail.com?subject=&amp;body='
+								href='mailto:kahcandylover@gmail.com?subject=&amp;body='
 								target='_blank'
 								rel='noreferrer'
 								className='link-header'>

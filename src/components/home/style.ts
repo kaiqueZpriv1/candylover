@@ -13,7 +13,7 @@ export const HomeS = styled.main`
 `;
 
 export const RouterPage = styled.button`
-	font-size: 1.8em;
+	font-size: 1.6em;
 	font-weight: 700;
 	padding: 10px 30px;
 	border-radius: 30px;
@@ -33,7 +33,7 @@ export const FooterHome = styled.footer`
 	justify-content: center;
 	align-items: center;
 	position: absolute;
-	inset: 700px 0 0 0;
+	inset: 640px 0 0 0;
 	.text-footer {
 		font-size: 1.5em;
 		color: #000;

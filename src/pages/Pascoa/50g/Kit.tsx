@@ -15,26 +15,26 @@ export const Kit = () => {
 			id: 0,
 			recheio: 'Brigadeiro',
 			value: 'R$ 45,00',
-			description: 'Brigadeiro tradicional com casca ao leite',
+			description: 'Brigadeiro tradicional / casca ao leite',
 		},
 		{
 			id: 1,
 			recheio: 'Mousse de maracujá',
 			value: 'R$ 45,00',
-			description: 'Mousse de maracuja com casca meia amarga',
+			description: 'Mousse de maracuja / casca meia amarga',
 		},
 		{
 			id: 2,
 			recheio: 'Prestigio',
 			value: 'R$ 45,00',
 			description:
-				'Brigadeiro tradicional acompanhado de beijinho com casca ao leite',
+				'Brigadeiro tradicional acompanhado de beijinho / casca ao leite',
 		},
 		{
 			id: 3,
 			recheio: 'Beijinho',
 			value: 'R$ 45,00',
-			description: 'Beijinho com massa de coco e casca ao leite',
+			description: 'Beijinho com massa de coco / casca ao leite',
 		},
 		{
 			id: 4,
@@ -52,21 +52,21 @@ export const Kit = () => {
 			id: 6,
 			recheio: 'óreo',
 			value: 'R$ 45,00',
-			description: 'Brigadeiro de óreo com casca branca',
+			description: 'Brigadeiro de óreo / casca branca',
 		},
 		{
 			id: 7,
 			recheio: 'Kit Kat',
 			value: 'R$ 45,00',
 			description:
-				'Brigadeiro tradicional e brigadeiro branco com kit kat e casca ao leite',
+				'Brigadeiro tradicional e brigadeiro branco com kit kat / casca ao leite',
 		},
 		{
 			id: 8,
 			recheio: 'Kinder Bueno',
 			value: 'R$ 45,00',
 			description:
-				'Brigadeiro de ninho com kinder bueno e nutella com casca branca',
+				'Brigadeiro de ninho com kinder bueno e nutella / casca branca',
 		},
 	];
 	return (
