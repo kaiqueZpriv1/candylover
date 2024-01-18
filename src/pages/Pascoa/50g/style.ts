@@ -14,12 +14,12 @@ export const TextHomeInicial = styled.div`
 	align-items: center;
 	justify-content: center;
 	.title-homeP {
-		font-size: 3em;
+		font-size: 2.5em;
 		color: #151076;
 		font-weight: 900;
 	}
 	.paragrafo-homeP {
-		font-size: 1.3em;
+		font-size: 1.2em;
 		font-weight: 500;
 		color: #000;
 		text-align: center;
@@ -32,8 +32,8 @@ export const Cardapio = styled.div`
 	flex-direction: column;
 	gap: 10px;
 	.span-inicial {
-		font-size: 2.5em;
-		font-weight: 700;
+		font-size: 2em;
+		font-weight: 900;
 		color: #151076;
 		padding-left: 15px;
 	}
@@ -55,6 +55,7 @@ export const CardapioList = styled.div`
 	.description-recheio {
 		display: flex;
 		flex-direction: column;
+		gap: 5px;
 	}
 	.value-box {
 		display: flex;
@@ -63,15 +64,17 @@ export const CardapioList = styled.div`
 	}
 	.recheio-text {
 		font-size: 1.6em;
-		color: #000;
-		font-weight: 600;
+		color: #151076;
+		font-weight: 700;
 	}
 	.value-recheio {
-		font-size: 1.8em;
+		font-size: 1.7em;
 		color: #151076;
 		font-weight: 600;
 	}
 	.line-cardapio {
-		font-size: 1.4em;
+		font-size: 1.2em;
+		width: 280px;
+		font-weight: 600;
 	}
 `;
