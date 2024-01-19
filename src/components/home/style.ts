@@ -33,7 +33,7 @@ export const FooterHome = styled.footer`
 	justify-content: center;
 	align-items: center;
 	position: absolute;
-	inset: 640px 0 0 0;
+	inset: 620px 0 0 0;
 	.text-footer {
 		font-size: 1.5em;
 		color: #000;

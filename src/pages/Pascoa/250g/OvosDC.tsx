@@ -12,7 +12,7 @@ import {
 	TextHomeInicial,
 } from '../style';
 import { recheio } from '../50g/Kit';
-
+import { AiOutlineWhatsApp } from 'react-icons/ai';
 export const OvosDC = () => {
 	return (
 		<>
@@ -56,13 +56,14 @@ export const OvosDC = () => {
 						</div>
 					</Cardapio>
 					<ButtonWpp>
-						<button className='btnWpp'>
-							<a
-								href='https://wa.me/5511919462746?text=Olá,%20gostaria%20de%20fazer%20um%20pedido%20!'
-								className='link-wpp'>
+						<a
+							href='https://wa.me/5511919462746?text=Olá,%20gostaria%20de%20fazer%20um%20pedido%20!'
+							className='link-wpp'>
+							<button className='btnWpp'>
+								<AiOutlineWhatsApp size={25} color='#075e54' />
 								Encomendar !
-							</a>
-						</button>
+							</button>
+						</a>
 					</ButtonWpp>
 					<FooterOvos>
 						<Fade direction='up' cascade>

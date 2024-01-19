@@ -100,14 +100,19 @@ export const ButtonWpp = styled.div`
 	.btnWpp {
 		padding: 10px 20px;
 		border-radius: 10px;
-		background: #151076;
+		background: #064d48;
 		border: none;
-	}
-	.link-wpp{
 		font-size: 1.6em;
-		font-weight: 600;
-		color: #bfcfe7;
-
+		font-weight: 700;
+		color: #fafafa;
+	}
+	.icon-wpp {
+		margin-right: 7px;
+		position: relative;
+		top: 4px;
+	}
+	.link-wpp {
+		display: flex;
 	}
 `;
 

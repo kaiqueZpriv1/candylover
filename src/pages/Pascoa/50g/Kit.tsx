@@ -11,6 +11,7 @@ import {
 	TextHomeInicial,
 } from '../style';
 import { Fade } from 'react-awesome-reveal';
+import { AiOutlineWhatsApp } from 'react-icons/ai';
 
 export const recheio = [
 	{
@@ -114,13 +115,14 @@ export const Kit = () => {
 						</div>
 					</Cardapio>
 					<ButtonWpp>
-						<button className='btnWpp'>
-							<a
-								href='https://wa.me/5511919462746?text=Olá,%20gostaria%20de%20fazer%20um%20pedido%20!'
-								className='link-wpp'>
+						<a
+							href='https://wa.me/5511919462746?text=Olá,%20gostaria%20de%20fazer%20um%20pedido%20!'
+							className='link-wpp'>
+							<button className='btnWpp'>
+								<AiOutlineWhatsApp className='icon-wpp' size={30} color='#fafafa' />
 								Encomendar !
-							</a>
-						</button>
+							</button>
+						</a>
 					</ButtonWpp>
 					<FooterOvos>
 						<Fade direction='up' cascade>
