@@ -29,7 +29,7 @@ export const HeaderC = () => {
 					}}>
 					<Fade direction='up' cascade>
 						<RouterSocial>
-							<AiOutlineWhatsApp size={35} color='#075e54' />
+							<AiOutlineWhatsApp size={30} color='#075e54' />
 							<a
 								href='https://wa.me/5511919462746?text=Olá,%20gostaria%20de%20fazer%20um%20pedido%20!'
 								target='_blank'
@@ -40,7 +40,7 @@ export const HeaderC = () => {
 						</RouterSocial>
 						<LineRouter />
 						<RouterSocial>
-							<AiOutlineInstagram size={35} color='#C13584' />
+							<AiOutlineInstagram size={30} color='#C13584' />
 							<a
 								href='https://www.instagram.com/kah_candylover?igshid=YmMyMTA2M2Y%3D'
 								target='_blank'
@@ -51,7 +51,7 @@ export const HeaderC = () => {
 						</RouterSocial>
 						<LineRouter />
 						<RouterSocial>
-							<AiOutlineMail size={35} color='#3e65cf' />
+							<AiOutlineMail size={30} color='#3e65cf' />
 							<a
 								href='mailto:kahcandylover@gmail.com?subject=&amp;body='
 								target='_blank'
