@@ -23,7 +23,9 @@ export const PascoaIT = () => {
 						</Link>
 					</Fade>
 					<Fade direction='left'>
-						<RouterPage>Ovos Trufados</RouterPage>
+						<Link to='/ovostrufados'>
+							<RouterPage>Ovos Trufados</RouterPage>
+						</Link>
 					</Fade>
 				</div>
 				<FooterHome>

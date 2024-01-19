@@ -4,6 +4,7 @@ import { PascoaIT } from '../pages/Pascoa/PascoaIT';
 import App from '../App';
 import { Kit } from '../pages/Pascoa/50g/Kit';
 import { OvosDC } from '../pages/Pascoa/250g/OvosDC';
+import { Trufado } from '../pages/Pascoa/ovos trufados/Trufado';
 
 const route = createBrowserRouter([
 	{
@@ -21,6 +22,10 @@ const route = createBrowserRouter([
 	{
 		path: '/ovos250',
 		element: <OvosDC/>
+	},
+	{
+		path: '/ovostrufados',
+		element: <Trufado/>
 	},
 ]);
 
