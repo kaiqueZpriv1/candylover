@@ -91,3 +91,35 @@ export const LineCardapio = styled.div`
 	position: relative;
 	inset: 0 0 0 20px;
 `;
+
+export const ButtonWpp = styled.div`
+	padding: 45px 0 0 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	.btnWpp {
+		padding: 10px 20px;
+		border-radius: 10px;
+		background: #151076;
+		border: none;
+	}
+	.link-wpp{
+		font-size: 1.6em;
+		font-weight: 600;
+		color: #bfcfe7;
+
+	}
+`;
+
+export const FooterOvos = styled.div`
+	padding: 60px 0 20px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	.text-footer {
+		font-size: 1.5em;
+		color: #000;
+		font-weight: 500;
+	}
+`;

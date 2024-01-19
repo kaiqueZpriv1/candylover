@@ -35,9 +35,11 @@ export const HeaderG = () => {
 							<RouterSocial style={{ fontSize: '2em' }}>Inicio</RouterSocial>
 						</Link>
 						<LineRouter />
-						<RouterSocial style={{ fontSize: '2em' }}>
-							Ovos de pascoa
-						</RouterSocial>
+						<Link to='/pascoa'>
+							<RouterSocial style={{ fontSize: '2em' }}>
+								Ovos de pascoa
+							</RouterSocial>
+						</Link>
 						<LineRouter />
 						<RouterSocial style={{ fontSize: '2em' }}>
 							Cone trufado

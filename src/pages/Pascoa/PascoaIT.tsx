@@ -18,7 +18,9 @@ export const PascoaIT = () => {
 						</Link>
 					</Fade>
 					<Fade direction='right'>
-						<RouterPage>Ovos de colher 250g</RouterPage>
+						<Link to='/ovos250'>
+							<RouterPage>Ovos de colher 250g</RouterPage>
+						</Link>
 					</Fade>
 					<Fade direction='left'>
 						<RouterPage>Ovos Trufados</RouterPage>

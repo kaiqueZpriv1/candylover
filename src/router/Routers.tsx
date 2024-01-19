@@ -3,6 +3,7 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import { PascoaIT } from '../pages/Pascoa/PascoaIT';
 import App from '../App';
 import { Kit } from '../pages/Pascoa/50g/Kit';
+import { OvosDC } from '../pages/Pascoa/250g/OvosDC';
 
 const route = createBrowserRouter([
 	{
@@ -16,6 +17,10 @@ const route = createBrowserRouter([
 	{
 		path: '/kit',
 		element: <Kit/>
+	},
+	{
+		path: '/ovos250',
+		element: <OvosDC/>
 	},
 ]);
 
