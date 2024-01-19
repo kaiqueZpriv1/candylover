@@ -32,22 +32,22 @@ export const HeaderG = () => {
 					}}>
 					<Fade direction='up' cascade>
 						<Link to='/'>
-							<RouterSocial style={{ fontSize: '2em' }}>Inicio</RouterSocial>
+							<RouterSocial style={{ fontSize: '1.4em' }}>Inicio</RouterSocial>
 						</Link>
 						<LineRouter />
 						<Link to='/pascoa'>
-							<RouterSocial style={{ fontSize: '2em' }}>
+							<RouterSocial style={{ fontSize: '1.4em' }}>
 								Ovos de pascoa
 							</RouterSocial>
 						</Link>
 						<LineRouter />
-						<RouterSocial style={{ fontSize: '2em' }}>
+						<RouterSocial style={{ fontSize: '1.4em' }}>
 							Cone trufado
 						</RouterSocial>
 						<LineRouter />
-						<RouterSocial style={{ fontSize: '2em' }}>Tortas</RouterSocial>
+						<RouterSocial style={{ fontSize: '1.4em' }}>Tortas</RouterSocial>
 						<LineRouter />
-						<RouterSocial style={{ fontSize: '2em' }}>Bolos</RouterSocial>
+						<RouterSocial style={{ fontSize: '1.4em' }}>Bolos</RouterSocial>
 						<LineRouter />
 					</Fade>
 				</BurgerDiv>

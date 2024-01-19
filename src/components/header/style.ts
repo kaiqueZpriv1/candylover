@@ -48,6 +48,7 @@ export const RouterSocial = styled.h3`
 	gap: 5px;
 	text-decoration: none;
 	color: #000;
+	font-weight: 600;
 	.link-header {
 		color: #000;
 		cursor: pointer;
