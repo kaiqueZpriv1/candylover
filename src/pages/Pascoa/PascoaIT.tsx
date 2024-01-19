@@ -1,15 +1,62 @@
-import React from 'react';
-import { HeaderC } from '../../components/header/HeaderC';
+import React, { useState } from 'react';
+// import { HeaderC } from '../../components/header/HeaderC';
 import Global from '../../components/Global';
 import { FooterHome, HomeS, RouterPage } from '../../components/home/style';
-import { Fade } from 'react-awesome-reveal';
 import { Link } from 'react-router-dom';
-// style = home
+import { HomeGS, LogoHG } from '../header global/style';
+import { AiOutlineMenu } from 'react-icons/ai';
+import {
+	BurgerDiv,
+	LineRouter,
+	RouterSocial,
+} from '../../components/header/style';
+import LogoType from '../header global/logo.png';
+import { Fade } from 'react-awesome-reveal';
 export const PascoaIT = () => {
+	const [burger, setBurger] = useState(false);
+	const handleSetBurger = () => {
+		setBurger(!burger);
+	};
 	return (
 		<>
 			<Global />
-			<HeaderC />
+			<HomeGS>
+				<AiOutlineMenu
+					className='icon-burger'
+					onClick={handleSetBurger}
+					color='#000'
+					size={60}
+				/>
+				<BurgerDiv
+					style={{
+						width: burger ? '65%' : '0',
+						paddingLeft: burger ? '15px' : '0',
+					}}>
+					<Fade direction='up' cascade damping={0.3}>
+						<Link to='/'>
+							<RouterSocial style={{ fontSize: '1.4em' }}>Inicio</RouterSocial>
+						</Link>
+						<LineRouter />
+						<Link to='/pascoa'>
+							<RouterSocial style={{ fontSize: '1.4em' }}>
+								Ovos de pascoa
+							</RouterSocial>
+						</Link>
+						<LineRouter />
+						<RouterSocial style={{ fontSize: '1.4em' }}>
+							Cone trufado
+						</RouterSocial>
+						<LineRouter />
+						<RouterSocial style={{ fontSize: '1.4em' }}>Tortas</RouterSocial>
+						<LineRouter />
+						<RouterSocial style={{ fontSize: '1.4em' }}>Bolos</RouterSocial>
+						<LineRouter />
+					</Fade>
+				</BurgerDiv>
+				<LogoHG>
+					<img src={LogoType} alt='logo' className='image-logo' />
+				</LogoHG>
+			</HomeGS>
 			<HomeS>
 				<div className='container-home'>
 					<Fade direction='left'>

@@ -17,7 +17,7 @@ export const HomeGS = styled.header`
 
 export const LogoHG = styled.div`
 	position: absolute;
-	inset: 0 0 0 150px;
+	inset: 0 0 0 130px;
 	.image-logo {
 		width: 130px;
 	}
