@@ -53,7 +53,7 @@ export const recheio = [
 	},
 	{
 		id: 6,
-		recheio: 'óreo',
+		recheio: 'Óreo',
 		value: 'R$ 45,00',
 		description: 'Brigadeiro de óreo / casca branca',
 	},
@@ -119,7 +119,11 @@ export const Kit = () => {
 							href='https://wa.me/5511919462746?text=Olá,%20gostaria%20de%20fazer%20um%20pedido%20!'
 							className='link-wpp'>
 							<button className='btnWpp'>
-								<AiOutlineWhatsApp className='icon-wpp' size={30} color='#fafafa' />
+								<AiOutlineWhatsApp
+									className='icon-wpp'
+									size={30}
+									color='#fafafa'
+								/>
 								Encomendar !
 							</button>
 						</a>
