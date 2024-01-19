@@ -9,7 +9,7 @@ import {
 	HomePages,
 	LineCardapio,
 	TextHomeInicial,
-} from './style';
+} from '../style';
 import { Fade } from 'react-awesome-reveal';
 
 export const recheio = [

@@ -10,7 +10,7 @@ import {
 	HomePages,
 	LineCardapio,
 	TextHomeInicial,
-} from '../50g/style';
+} from '../style';
 import { recheio } from '../50g/Kit';
 
 export const OvosDC = () => {
