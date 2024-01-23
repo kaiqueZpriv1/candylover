@@ -4,6 +4,9 @@ import { Fade } from 'react-awesome-reveal';
 import { Link } from 'react-router-dom';
 
 export const HomeC = () => {
+	const handleIndisponivel = () => {
+		alert('Serviço indisponivel no momento');
+	};
 	return (
 		<HomeS>
 			<div className='container-home'>
@@ -13,13 +16,25 @@ export const HomeC = () => {
 					</Link>
 				</Fade>
 				<Fade direction='right'>
-					<RouterPage>Cone trufado</RouterPage>
+					<RouterPage
+						onClick={handleIndisponivel}
+						style={{ background: 'rgba(100, 100, 100, 1)' }}>
+						Cone trufado
+					</RouterPage>
 				</Fade>
 				<Fade direction='left'>
-					<RouterPage>Tortas</RouterPage>
+					<RouterPage
+						onClick={handleIndisponivel}
+						style={{ background: 'rgba(100, 100, 100, 1)' }}>
+						Tortas
+					</RouterPage>
 				</Fade>
 				<Fade direction='right'>
-					<RouterPage>Bolos</RouterPage>
+					<RouterPage
+						onClick={handleIndisponivel}
+						style={{ background: 'rgba(100, 100, 100, 1)' }}>
+						Bolos
+					</RouterPage>
 				</Fade>
 			</div>
 			<FooterHome>
