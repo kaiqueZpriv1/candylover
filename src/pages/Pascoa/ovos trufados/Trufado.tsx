@@ -13,32 +13,32 @@ import {
 import { Fade } from 'react-awesome-reveal';
 import { AiOutlineWhatsApp } from 'react-icons/ai';
 export const Trufado = () => {
-    const recheiotrufado = [
-			{
-				id: 0,
-				recheio: 'Brigadeiro',
-				value: 'R$ 45,00',
-				description: 'Brigadeiro tradicional / casca ao leite',
-			},
-			{
-				id: 1,
-				recheio: 'Maracujá',
-				value: 'R$ 45,00',
-				description: 'Mousse de maracuja / casca meia amarga',
-			},
-			{
-				id: 2,
-				recheio: 'Beijinho',
-				value: 'R$ 45,00',
-				description: 'Beijinho com massa de coco / casca ao leite',
-			},
-			{
-				id: 3,
-				recheio: 'Ninho',
-				value: 'R$ 45,00',
-				description: 'Brigadeiro branco com leite ninho',
-			},
-		];
+	const recheiotrufado = [
+		{
+			id: 0,
+			recheio: 'Brigadeiro',
+			value: 'R$ 70,00',
+			description: 'Brigadeiro tradicional / casca ao leite',
+		},
+		{
+			id: 1,
+			recheio: 'Maracujá',
+			value: 'R$ 70,00',
+			description: 'Mousse de maracuja / casca meia amarga',
+		},
+		{
+			id: 2,
+			recheio: 'Beijinho',
+			value: 'R$ 70,00',
+			description: 'Beijinho com massa de coco / casca ao leite',
+		},
+		{
+			id: 3,
+			recheio: 'Ninho',
+			value: 'R$ 70,00',
+			description: 'Brigadeiro branco com leite ninho',
+		},
+	];
 	return (
 		<>
 			<Global />

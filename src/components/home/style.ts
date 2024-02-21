@@ -16,7 +16,7 @@ export const RouterPage = styled.button`
 	font-size: 1.6em;
 	font-weight: 700;
 	padding: 10px 30px;
-	border-radius: 30px;
+	border-radius: 20px;
 	border: none;
 	background-color: #6065c1;
 	color: #f9f9f9;
