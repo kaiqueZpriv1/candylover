@@ -47,8 +47,8 @@ export const Trufado = () => {
 				<div className='container-homeP'>
 					<Fade cascade direction='up'>
 						<TextHomeInicial>
-							<span className='title-homeP'>Kit com 4 ovos de 50g</span>
-							<p className='paragrafo-homeP'>Escolha 4 opções de recheio !</p>
+							<span className='title-homeP'>Ovos Trufados</span>
+							{/* <p className='paragrafo-homeP'>Escolha 4 opções de recheio !</p> */}
 						</TextHomeInicial>
 					</Fade>
 					<Cardapio>
